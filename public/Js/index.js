@@ -11,7 +11,7 @@
     let isMobile = window.matchMedia("(max-width: 768px)").matches;
     let currentMapStyle = 'base';
 
-    maptilersdk.config.apiKey = process.env.MAPTILER_API_KEY;
+    maptilersdk.config.apiKey = "Your api key here";//Please use your apikey from Maptiler here
 
     // Select Kenya bounding box
     const kenyaBounds = [
