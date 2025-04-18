@@ -71,9 +71,9 @@ An interactive **MapTiler-based** web map focused on **visualizing wind patterns
 │       └── index.js      # JavaScript for map rendering and interactivity
 ├── assets/           
 │   └── demo/        
-│       ├── map-interface.png   # Preview of the map interface
-│       ├── wind-overlay.png    # Preview of wind layer
-│       └── tooltip-demo.png    # Example of airport tooltips
+│       ├── map1.png   # Preview of the map interface
+│       ├── map2.png    # Preview of wind layer
+│       └── map3.png    # Example of airport tooltips
 └── package.json                # Project dependencies and scripts
 
           # Project dependencies and scripts
