@@ -1,3 +1,4 @@
+
 # Kenya Wind & Airport Visualization
 
 An interactive **MapTiler-based** web map focused on **visualizing wind patterns** and **airport locations across Kenya**, with **satellite imagery**, **responsive design**, and **tooltip popups** for quick insights. Built for developers, meteorologists, and aviation analysts to explore wind patterns and key airports in Kenya.
@@ -44,13 +45,13 @@ An interactive **MapTiler-based** web map focused on **visualizing wind patterns
 
 ## Key Files & Structure
 
-- **app.js**: The main server file, setting up the Express server and handling API routes.
-- **index.ejs**: Frontend view that integrates MapTiler and wind visualization features.
-- **.env**: Stores sensitive configuration like the **MapTiler API key** and server port settings.
-- **index.js (in the JS folder)**: Manages map rendering logic, wind data fetching, and interactive tooltips.
-- **styles.css**: Custom styling to ensure responsive and modern design.
-- **partials/header.ejs**: Contains the header for the layout, included in the main view.
-- **partials/footer.ejs**: Contains the footer for the layout, included in the main view.
+- `app.js`: The main server file, setting up the Express server and handling API routes.
+- `index.ejs`: Frontend view that integrates MapTiler and wind visualization features.
+- `.env`: Stores sensitive configuration like the **MapTiler API key** and server port settings.
+- `index.js` (in the JS folder): Manages map rendering logic, wind data fetching, and interactive tooltips.
+- `styles.css`: Custom styling to ensure responsive and modern design.
+- `partials/header.ejs`: Contains the header for the layout, included in the main view.
+- `partials/footer.ejs`: Contains the footer for the layout, included in the main view.
 
 ## Folder Structure
 
@@ -73,40 +74,47 @@ An interactive **MapTiler-based** web map focused on **visualizing wind patterns
 │   └── js/               
 │       └── index.js      # JavaScript for map rendering and interactivity
 └── package.json          # Project dependencies and scripts
-
+```
 
 ## Setup Instructions
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/your-username/kenya-windmap-airports-maps.git
-   cd kenya-windmap-airports-maps
+```bash
+git clone https://github.com/your-username/kenya-windmap-airports-maps.git
+cd kenya-windmap-airports-maps
+```
 
-# Project Setup and Configuration
-
-## Install Dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
+```
 
+### 3. Configure environment variables
 
-## Configure Environment Variables
-
-1. Create a `.env` file in the root of the project.
-2. Add your MapTiler API key and desired port:
+Create a `.env` file in the root directory and add the following:
 
 ```ini
 YOUR_MAPTILER_API=your_maptiler_api_key
 PORT=3000
+```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the app in action.
+### 4. Run the app
+
+```bash
+npm start
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser to view the app in action.
 
 ## License
-This project is licensed under the MIT License. Feel free to fork and contribute, but please credit the original author for use in any derivative works.
+
+This project is licensed under the **MIT License**. Feel free to fork and contribute, but please credit the original author for use in any derivative works.
 
 ## Author
-Erick Olando  
-[LinkedIn](https://https://www.linkedin.com/in/erick-olando-9a9148220) • [Portfolio](https://erick.up.railway.app/) • [Email](mailto:olandoerick98@gmail.com)
+
+**Erick Olando**  
+[LinkedIn](https://www.linkedin.com/in/erick-olando-9a9148220) • [Portfolio](https://erick.up.railway.app/) • [Email](mailto:olandoerick98@gmail.com)
