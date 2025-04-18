@@ -29,10 +29,10 @@ An interactive **MapTiler-based** web map focused on **visualizing wind patterns
 ![Map Interface](/assets/demo/map1.PNG)
 
 ### Wind Visualization Layer
-![Wind Layer](/assets/demo/map2.PNG)
+![Wind Layer](/assets/demo/map3.PNG)
 
 ### Airport Tooltips in Action and satellie imagery
-![Airport Tooltips](/assets/demo/map3.PNG)
+![Airport Tooltips](/assets/demo/map2.PNG)
 
 ## Built With
 
