@@ -1,0 +1,25 @@
+
+<%- include('partials/header') %>
+<body>
+  <div id="time-info">
+    <span id="time-text"></span>
+    <button id="play-pause-bt">Play 3600x</button>
+    <input type="range" id="time-slider" min="0" max="11" step="1">
+  </div>
+
+  <div id="map-controls">
+    <div class="map-toggle">
+      <button id="base-map-btn" class="toggle-button active">Base Map</button>
+      <button id="satellite-btn" class="toggle-button inactive">Satellite</button>
+    </div>
+  </div>
+
+  <div id="variable-name">Kenya Wind & Airport Data</div>
+  <div id="pointer-data"></div>
+  <div id="airport-info"></div>
+  <div id="map"></div>
+  
+ <script src="/Js/index.js"></script>
+</body>
+<%- include('partials/footer') %>
+
