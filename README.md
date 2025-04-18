@@ -99,7 +99,7 @@ npm install
 ### 3. Configure environment variables
 
 Create a `.env` file in the root directory and add the following:
-
+N/B:Please note in the index.js code, you will be required to put your apiKey
 ```ini
 YOUR_MAPTILER_API=your_maptiler_api_key
 PORT=3000
