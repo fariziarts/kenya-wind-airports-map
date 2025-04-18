@@ -108,7 +108,7 @@ PORT=3000
 ### 4. Run the app
 
 ```bash
-npm start
+nodemon app.js
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser to view the app in action.
