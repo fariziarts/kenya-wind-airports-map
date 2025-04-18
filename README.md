@@ -26,13 +26,13 @@ An interactive **MapTiler-based** web map focused on **visualizing wind patterns
 ## Demo Preview
 
 ### Interactive Map Interface
-![Map Interface](public/assets/demo/map-interface.png)
+![Map Interface](public/assets/demo/map1.PNG)
 
 ### Wind Visualization Layer
-![Wind Layer](public/assets/demo/wind-overlay.png)
+![Wind Layer](public/assets/demo/map2.PNG)
 
-### Airport Tooltips in Action
-![Airport Tooltips](public/assets/demo/tooltip-demo.png)
+### Airport Tooltips in Action and satellie imagery
+![Airport Tooltips](public/assets/demo/map3.PNG)
 
 ## Built With
 
