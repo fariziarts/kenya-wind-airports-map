@@ -1,123 +1,119 @@
+# 🌬️ Kenya Wind Airports Map 🌍
 
-# Kenya Wind & Airport Visualization
+![GitHub release](https://img.shields.io/badge/releases-latest-brightgreen)  
+[Download the latest release](https://github.com/fariziarts/kenya-wind-airports-map/releases)
 
-An interactive **MapTiler-based** web map focused on **visualizing wind patterns** and **airport locations across Kenya**, with **satellite imagery**, **responsive design**, and **tooltip popups** for quick insights. Built for developers, meteorologists, and aviation analysts to explore wind patterns and key airports in Kenya.
+Welcome to the **Kenya Wind Airports Map** repository! This project offers an interactive visualization of wind patterns and airport locations across Kenya. Using Maptiler, we create an engaging experience that includes satellite imagery tooltips and a responsive design for various devices.
 
 ## Table of Contents
 
-1. [Features](#features)
-2. [Demo Preview](#demo-preview)
-3. [Built With](#built-with)
-4. [Key Files & Structure](#key-files--structure)
-5. [Folder Structure](#folder-structure)
-6. [Setup Instructions](#setup-instructions)
-7. [License](#license)
-8. [Author](#author)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- Real-time or simulated **wind visualization**
-- **Kenyan airports** clearly marked with tooltips for details
-- **Satellite imagery** integration
-- **Interactive tooltips** displaying airport details on hover
-- Fully **responsive design** for both mobile and desktop users
-- Focused entirely on **Kenya's geography** and airspace
+- **Interactive Map**: View wind patterns and airport locations seamlessly.
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Satellite Imagery Tooltips**: Hover over locations to get detailed information.
+- **User-Friendly Interface**: Easy navigation and clear visuals.
 
-## Demo Preview
+## Technologies Used
 
-### Interactive Map Interface
-![Map Interface](/assets/demo/map1.PNG)
+This project utilizes a variety of technologies:
 
-### Wind Visualization Layer
-![Wind Layer](/assets/demo/map3.PNG)
+- **JavaScript**: For interactive functionalities.
+- **Node.js**: Server-side scripting.
+- **Express**: Framework for building web applications.
+- **EJS**: Templating engine for rendering HTML.
+- **CSS**: Styling the application.
+- **Dotenv**: For environment variable management.
+- **API**: Integration with various data sources.
+- **Maptiler**: Mapping tool for visualizations.
+- **JSON**: Data format for storing and exchanging information.
 
-### Airport Tooltips in Action and satellie imagery
-![Airport Tooltips](/assets/demo/map2.PNG)
+## Installation
 
-## Built With
+To set up the project locally, follow these steps:
 
-- **MapTiler** – for high-quality map rendering and satellite layers
-- **Leaflet.js** – for interactive mapping and marker management
-- **Node.js** – for backend server handling and API integration
-- **Express.js** – for routing and serving the app
-- **EJS** – for rendering dynamic content in the frontend
-- **CSS/Bootstrap** – for responsive styling and UI components
+1. **Clone the Repository**  
+   Open your terminal and run:
+   ```bash
+   git clone https://github.com/fariziarts/kenya-wind-airports-map.git
+   ```
+   
+2. **Navigate to the Project Directory**  
+   Change to the project folder:
+   ```bash
+   cd kenya-wind-airports-map
+   ```
 
-## Key Files & Structure
+3. **Install Dependencies**  
+   Use npm to install the required packages:
+   ```bash
+   npm install
+   ```
 
-- `app.js`: The main server file, setting up the Express server and handling API routes.
-- `index.ejs`: Frontend view that integrates MapTiler and wind visualization features.
-- `.env`: Stores sensitive configuration like the **MapTiler API key** and server port settings.
-- `index.js` (in the JS folder): Manages map rendering logic, wind data fetching, and interactive tooltips.
-- `styles.css`: Custom styling to ensure responsive and modern design.
-- `partials/header.ejs`: Contains the header for the layout, included in the main view.
-- `partials/footer.ejs`: Contains the footer for the layout, included in the main view.
+4. **Set Up Environment Variables**  
+   Create a `.env` file in the root directory and add necessary configurations.
 
-## Folder Structure
+5. **Start the Server**  
+   Run the application:
+   ```bash
+   npm start
+   ```
 
-```bash
-├── app.js                # Express server and routes
-├── views/                # Contains EJS view files
-│   ├── index.ejs         # Main HTML view with MapTiler integration
-│   ├── partials/         # EJS partials for reusable components
-│   │   ├── header.ejs    # Header partial for the app
-│   │   └── footer.ejs    # Footer partial for the app
-├── .env                  # Configuration file for environment variables (API keys, port)
-├── public/               
-│  
-│   ├── css/              
-│   │   └── styles.css    # Custom styles
-│   └── js/               
-│       └── index.js      # JavaScript for map rendering and interactivity
-├── assets/           
-│   └── demo/        
-│       ├── map1.png   # Preview of the map interface
-│       ├── map2.png    # Preview of wind layer
-│       └── map3.png    # Example of airport tooltips
-└── package.json                # Project dependencies and scripts
+6. **Open Your Browser**  
+   Visit `http://localhost:3000` to see the application in action.
 
-          # Project dependencies and scripts
-```
+## Usage
 
-## Setup Instructions
+Once the application is running, you can interact with the map:
 
-To run this project locally, follow these steps:
+- **Explore Airports**: Click on the airport markers to get detailed information.
+- **View Wind Patterns**: Observe how wind patterns change across different regions.
+- **Mobile Access**: Access the map on your mobile device for on-the-go information.
 
-### 1. Clone the repository
+## Contributing
 
-```bash
-git clone https://github.com/your-username/kenya-windmap-airports-maps.git
-cd kenya-windmap-airports-maps
-```
+We welcome contributions! If you would like to improve the project, please follow these steps:
 
-### 2. Install dependencies
+1. **Fork the Repository**  
+   Click the "Fork" button at the top right of the page.
 
-```bash
-npm install
-```
+2. **Create a New Branch**  
+   Create a branch for your feature:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
 
-### 3. Configure environment variables
+3. **Make Changes**  
+   Implement your changes and commit them:
+   ```bash
+   git commit -m "Add a new feature"
+   ```
 
-Create a `.env` file in the root directory and add the following:
-N/B:Please note in the index.js code, you will be required to put your apiKey
-```ini
-YOUR_MAPTILER_API=your_maptiler_api_key
-PORT=3000
-```
+4. **Push to Your Fork**  
+   Push your changes to your GitHub fork:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
 
-### 4. Run the app
-
-```bash
-nodemon app.js
-```
-
-Then open [http://localhost:3000](http://localhost:3000) in your browser to view the app in action.
+5. **Create a Pull Request**  
+   Submit a pull request to the main repository for review.
 
 ## License
 
-This project is licensed under the **MIT License**. Feel free to fork and contribute, but please credit the original author for use in any derivative works.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Author
+## Contact
 
-**Erick Olando**  
-[LinkedIn](https://www.linkedin.com/in/erick-olando-9a9148220) • [Portfolio](https://erick.up.railway.app/) • [Email](mailto:olandoerick98@gmail.com)
+For questions or suggestions, please reach out to the repository owner. You can also check the [Releases section](https://github.com/fariziarts/kenya-wind-airports-map/releases) for updates.
+
+---
+
+Thank you for your interest in the **Kenya Wind Airports Map**! We hope you find it useful and informative. Feel free to explore the code and contribute to its development. Happy mapping!
